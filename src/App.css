@@ -1,5 +1,11 @@
+.body {
+  top: 0px;
+  margin: 0px;
+}
+
 .App {
   text-align: center;
+  background: rgb(179, 197, 211);
 }
 
 .App-logo {
@@ -35,4 +41,126 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.logo-css {
+  height: 70px;
+  width: 50px;
+}
+.message {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+  font-size: xx-large;
+  font-weight: 300;
+  color: rgb(52, 21, 124);
+  /* color: rgb(219, 31, 72); */
+  /* background: rgb(39, 163, 201); */
+  background: rgb(222, 244, 247);
+  font-family: "Spicy Rice", cursive;
+  opacity: 0.63;
+  z-index: -1;
+}
+.fonts {
+  font-size: xx-large;
+  font-weight: 300;
+  color: rgb(151, 59, 136);
+  font-family: "Spicy Rice", cursive;
+}
+/* css for app js */
+
+/* .count-container {
+  display: block;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+} */
+
+.animation-construction {
+  height: 500px;
+  width: 500px;
+}
+
+.timer-display {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  /* grid-template-columns: auto; */
+}
+.countdown-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+}
+.count-container {
+  widows: 1000px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.counter-header {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+/* css for circle */
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.countdown-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.countdown-item {
+  color: #111;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 30px;
+  margin: 10px;
+  padding-top: 10px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.countdown-item span {
+  color: #333;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.social-media {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
